@@ -1,1 +1,67 @@
 console.log('🟥 🟦 🟩 🟨');
+
+// function deleteRed(event) {
+//     //event.target is where the click happened
+//     console.log('delete red', event.target);
+
+// event.target.remove();
+// }
+
+function redClick() {
+    console.log('you click red');
+
+let redList = document.getElementById('blocks');
+
+redList.innerHTML += `<pan onclick="deleteRed(event)"><div class="block red-fill"></div></span>`;
+
+
+}
+
+
+// function deleteBlue(event) {
+//     //event.target is where the click happened
+//     console.log('delete blue', event.target);
+
+// event.target.remove();
+// }
+
+function blueClick() {
+    console.log('you click blue');
+
+    let blueList = document.getElementById('blocks');
+
+    blueList.innerHTML += `<span onclick="deleteBlue(event)"><div class="block blue-fill"></div></span>`;
+
+}
+
+// function deleteGreen(event) {
+//     //event.target is where the click happened
+//     console.log('delete green', event.target);
+
+// event.target.remove();
+// }
+
+function greenClick() {
+    console.log('you click green');
+
+    let greenList = document.getElementById('blocks');
+
+    greenList.innerHTML += `<span onclick="deleteGreen(event)"><div class="block green-fill"></div></span>`;
+
+}
+
+// function deleteYellow(event) {
+//     //event.target is where the click happened
+//     console.log('delete yellow', event.target);
+
+// event.target.remove();
+// }
+
+function yellowClick() {
+    console.log('you click yellow');
+
+    let yellowList = document.getElementById('blocks');
+
+    yellowList.innerHTML += `<span onclick="deleteYellow(event)"><div class="block yellow-fill"></div></span>`;
+
+}
